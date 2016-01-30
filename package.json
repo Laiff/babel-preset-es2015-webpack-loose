@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2015-webpack-loose",
-  "version": "6.3.13",
+  "version": "6.3.14",
   "description": "Babel preset for all es2015-webpack plugins, with loose mode enabled where available.",
   "authors": [
     "Andrew Laiff <q.laiff@gmail.com>"
