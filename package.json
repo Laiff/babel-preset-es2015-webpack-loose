@@ -1,0 +1,26 @@
+{
+  "name": "babel-preset-es2015-webpack-loose",
+  "version": "1.0.0",
+  "description": "Babel preset for all es2015-webpack plugins, with loose mode enabled where available.",
+  "authors": [
+    "Andrew Laiff <q.laiff@gmail.com>"
+  ],
+  "homepage": "https://babeljs.io/",
+  "license": "MIT",
+  "repository": "https://github.com/Laiff/babel-preset-es2015-webpack-loose",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test | tap-spec"
+  },
+  "dependencies": {
+    "modify-babel-preset": "^1.0.0"
+  },
+  "peerDependencies": {
+    "babel-preset-es2015-webpack": "*"
+  },
+  "devDependencies": {
+    "babel-preset-es2015-webpack": "^6.3.13",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  }
+}
