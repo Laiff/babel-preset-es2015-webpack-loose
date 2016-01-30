@@ -19,21 +19,21 @@ $ npm install --save-dev babel-preset-es2015-loose babel-preset-es2015
 
 ```json
 {
-  "presets": ["es2015-loose"]
+  "presets": ["es2015-webpack-loose"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel script.js --presets es2015-loose
+$ babel script.js --presets es2015-webpack-loose
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  presets: ["es2015-loose"]
+  presets: ["es2015-webpack-loose"]
 })
 ```
 
