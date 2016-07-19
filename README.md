@@ -1,4 +1,4 @@
-# babel-preset-es2015-loose
+# babel-preset-es2015-webpack-loose
 
 Babel preset that uses [modify-babel-preset] to modify [babel-preset-es2015]
 and enable [loose mode] where available.
@@ -8,7 +8,7 @@ and enable [loose mode] where available.
 Install both this preset, and the core 'babel-preset-es2015' that it modifies:
 
 ```sh
-$ npm install --save-dev babel-preset-es2015-loose babel-preset-es2015
+$ npm install --save-dev babel-preset-es2015-webpack-loose babel-preset-es2015
 ```
 
 ## Usage
